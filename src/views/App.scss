@@ -1,0 +1,136 @@
+.Todo {
+  background: none;
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(109, 104, 104);
+
+  .Todo-content-is-completed {
+    text-decoration: line-through;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(38, 145, 56);
+  }
+
+  .Todo-content-is-not-completed {
+    color: black;
+  }
+
+  .Todo-content-is-editing {
+    background-color: aliceblue;
+    border: solid 1px black;
+    outline: solid 1px black;
+  }
+
+  .Todo-content-is-not-editing {
+    border: none;
+    outline: none;
+  }
+
+  p {
+    background: none;
+
+  }
+}
+
+.App-title {
+  padding-top: 50px;
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+.App {
+  margin-top: 0px;
+  text-align: center;
+  line-height: 40px;
+  height: 100%;
+}
+
+body {
+  background: rgba(118, 98, 206, 1.0);
+  background: linear-gradient(90deg, rgb(107, 121, 132), rgb(177, 184, 188));
+}
+
+.TextInput-new {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  height: 20px;
+  width: 500px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 7px;
+  background: whitesmoke;
+}
+
+.TextInput-update {
+  background: transparent;
+  margin: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  height: 20px;
+  width: 600px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 7px;
+}
+
+.Button-add {
+  font-size: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background: none;
+
+}
+
+.Button-add:active {
+  background-color: aquamarine;
+}
+
+
+.CheckBox-complete {
+  font-size: 15px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+
+.Button-edit {
+  font-size: 15px;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  background: aliceblue;
+  margin-right: 10px;
+}
+
+.Button-save {
+  font-size: 15px;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  background: greenyellow;
+  margin-right: 10px;
+}
+
+.Button-delete {
+  font-size: 15px;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  background: rgb(240, 84, 57);
+}
+
+.Button-cancel {
+  font-size: 15px;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  background: aliceblue;
+}
+
+.Secsion-1 {
+  margin-bottom: 10px;
+}
